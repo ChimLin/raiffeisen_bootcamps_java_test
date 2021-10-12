@@ -2,12 +2,17 @@ version: '3.1'
 services:
   app:
     container_name: springboot-postgresql
-    image: springboot-postgresql
+    image: blog-api-docker.jar
     build: ./
     ports:
       - "8080:8080"
     depends_on:
       - dbpostgresql
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://dbpostgresql:5432/raif
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=create
   dbpostgresql:
     image: postgres
     ports:
