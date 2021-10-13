@@ -7,6 +7,7 @@
  - http://localhost:8080/swagger-ui.html
  
  # Deployment on Heroku
+ - Swagger: https://raiff-test-task.herokuapp.com/swagger-ui.html <br>
  - https://raiff-test-task.herokuapp.com/api/socks?color=red&operation=moreThan&cottonPart=10 <br>
  By using postman, send "POST/GET" requests as following:
    - https://raiff-test-task.herokuapp.com/api/socks/income
