@@ -1,9 +1,23 @@
 # raiffeisen_bootcamps_java_test
+
+# For local using
  - Download the repository, open it in IDEA. in console of IDEA, write the following:       
     - mvn install -DskipTests      
     - docker-compose up  
  - http://localhost:8080/swagger-ui.html
  
+ # Deployment on Heroku
+ - https://raiff-test-task.herokuapp.com/
+ By using postman, a man can send "POST" requests as following:
+   - https://raiff-test-task.herokuapp.com/api/socks/income
+   -  https://raiff-test-task.herokuapp.com/api/socks/outcome
+   {
+    "color" : "red",
+    "cottonPart" : 20,
+    "quantity" : 1000
+
+   }   
+   
  # Тестовое задание для Java стажеров
 
 Привет!
