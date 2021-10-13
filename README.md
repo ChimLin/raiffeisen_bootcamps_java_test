@@ -8,7 +8,7 @@
  
  # Deployment on Heroku
  - https://raiff-test-task.herokuapp.com/ <br>
- By using postman, a man can send "POST" requests as following:
+ By using postman, send "POST" requests as following:
    - https://raiff-test-task.herokuapp.com/api/socks/income
    -  https://raiff-test-task.herokuapp.com/api/socks/outcome <br>
    { <br>
