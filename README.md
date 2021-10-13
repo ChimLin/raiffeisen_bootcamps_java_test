@@ -7,16 +7,15 @@
  - http://localhost:8080/swagger-ui.html
  
  # Deployment on Heroku
- - https://raiff-test-task.herokuapp.com/
+ - https://raiff-test-task.herokuapp.com/ <br>
  By using postman, a man can send "POST" requests as following:
    - https://raiff-test-task.herokuapp.com/api/socks/income
-   -  https://raiff-test-task.herokuapp.com/api/socks/outcome
-   {
-    "color" : "red",
-    "cottonPart" : 20,
-    "quantity" : 1000
-
-   }   
+   -  https://raiff-test-task.herokuapp.com/api/socks/outcome <br>
+   { <br>
+    "color" : "red", <br>
+    "cottonPart" : 20, <br>
+    "quantity" : 1000 <br>
+   }  <br>
    
  # Тестовое задание для Java стажеров
 
