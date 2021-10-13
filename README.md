@@ -7,7 +7,7 @@
  - http://localhost:8080/swagger-ui.html
  
  # Deployment on Heroku
- - https://raiff-test-task.herokuapp.com/ <br>
+ - https://raiff-test-task.herokuapp.com/api/socks?color=red&operation=moreThan&cottonPart=10 <br>
  By using postman, send "POST/GET" requests as following:
    - https://raiff-test-task.herokuapp.com/api/socks/income
    -  https://raiff-test-task.herokuapp.com/api/socks/outcome <br>
@@ -16,7 +16,7 @@
     "cottonPart" : 20, <br>
     "quantity" : 1000 <br>
    }  <br>
-   - https://raiff-test-task.herokuapp.com/api/socks?color=red&operation=moreThan&cottonPart=10 <br>
+   
  # Тестовое задание для Java стажеров
 
 Привет!
